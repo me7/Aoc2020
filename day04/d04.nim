@@ -1,3 +1,5 @@
+## This file not ok, look at d04a.nim
+
 import strutils, sequtils, re
 
 proc parseFile(fn:string):seq[string] =
@@ -11,6 +13,26 @@ proc validPassport(p:string):bool =
   for f in fields:
     if not p.contains(f): return
   return true
+
+# passports = File.read("4.txt").split("\n\n")
+
+# passports.map! do |passport|
+#   passport.scan(/(\w+{3})\:(\S+)/).to_h
+# end
+
+# puts passports.select { |passport|
+#   (passport.keys & %w{byr iyr eyr hgt hcl ecl pid}).length == 7 &&
+#   passport['byr'].to_i.between?(1920, 2002) &&
+#   passport['iyr'].to_i.between?(2010, 2020) &&
+#   passport['eyr'].to_i.between?(2020, 2030) &&
+#   passport['hcl'] =~ /^\#[0-9a-f]{6}$/ &&
+#   %w{amb blu brn gry grn hzl oth}.include?(passport['ecl']) &&
+#   passport['pid'] =~ /^\d{9}$/ &&
+#   ( 
+#     (passport['hgt'].end_with?('cm') && passport['hgt'].to_i.between?(150, 193)) || (passport['hgt'].end_with?('in') && passport['hgt'].to_i.between?(59, 76))
+#   )
+# }.size
+
 
 # ecl:gry pid:860033327 eyr:2020 hcl:#fffffd byr:1937 iyr:2017 cid:147 hgt:183cm
 proc validfields(p:string): bool =
