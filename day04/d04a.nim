@@ -34,7 +34,8 @@ proc heightOk(p:Passport):bool =
     value = h[0..^3]
   case unit:
     of "cm": 
-      if not (value.intIsBetween(150, 193)): return
+      if value.parseInt notin 150..193: return false
+      # if not (value.intIsBetween(150, 193)): return
     of "in":
       if not (value.intIsBetween(59, 76)): return
     else: return
