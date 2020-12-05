@@ -1,6 +1,6 @@
 import strutils, sequtils
 
-let data = toSeq("d01.txt".lines).map(parseInt)
+let data = toSeq("inputs/01.txt".lines).map(parseInt)
 
 proc part1:int =
   for i,n in data:

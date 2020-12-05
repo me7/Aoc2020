@@ -129,6 +129,6 @@ proc part2(fn:string):int =
 
 
 # echo "example".part1()
-echo "input".part1()
+echo "inputs/04.txt".part1()
 
-echo "input".part2()
+echo "inputs/04.txt".part2()

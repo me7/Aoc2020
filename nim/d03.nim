@@ -1,7 +1,6 @@
-import strutils, strformat, math
+import strutils
 
-var example = readFile("d03ex").splitLines
-var data = readFile("d03.txt").splitLines
+var data = readFile("inputs/03.txt").splitLines
 
 proc slide(data: seq[string], right, down: int):int =
   var line, col = 0

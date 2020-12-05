@@ -1,6 +1,6 @@
 import strutils, sequtils, re
 
-var data = toSeq("d02.txt".lines)
+var data = toSeq("inputs/02.txt".lines)
 
 # 7-8 b: dbbpbbqdj mean have b 7-8 times
 proc okPassword(pw: string): bool =
