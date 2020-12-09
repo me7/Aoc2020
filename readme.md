@@ -12,6 +12,8 @@ Day 4 | |not in 1..5, splitWhiteSpace
 Day 5 | |shl, sets *intersect +union -subtract
 Day 6|60|countTable, always strip input file
 Day 7|Inf|recursive, scanf
+Day 8|Inf|index by 1 error (if line >= input.len), parseEnum
+Day 9|50|assert solve(example)==correct before use puzzle input
 
 
 [1]: https://nim-lang.org/docs/strscans.html#scanf.m%2Cstring%2Cstatic%5Bstring%5D%2Cvarargs%5Btyped%5D
