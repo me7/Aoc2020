@@ -11,7 +11,7 @@ Day 3 | |mod
 Day 4 | |not in 1..5, splitWhiteSpace
 Day 5 | |shl, sets *intersect +union -subtract
 Day 6|60|countTable, always strip input file
-
+Day 7|Inf|recursive, scanf
 
 
 [1]: https://nim-lang.org/docs/strscans.html#scanf.m%2Cstring%2Cstatic%5Bstring%5D%2Cvarargs%5Btyped%5D
