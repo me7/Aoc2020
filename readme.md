@@ -15,6 +15,7 @@ Day 7|Inf|recursive, scanf
 Day 8|Inf|index by 1 error (if line >= input.len), parseEnum
 Day 9|50|assert solve(example)==correct before use puzzle input
 
+[d9](nim/d09.nim)
 
 [1]: https://nim-lang.org/docs/strscans.html#scanf.m%2Cstring%2Cstatic%5Bstring%5D%2Cvarargs%5Btyped%5D
 [2]: https://pietroppeter.github.io/adventofnim/2020/day02.html

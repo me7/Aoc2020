@@ -35,7 +35,7 @@ func part2(bagushka: Bagushka, current: string): int =
     result += bag.amount * (1 + part2(bagushka, bag.color))
 
 
-let bagushkas = createConnections "inputs/07e.txt"
+let bagushkas = createConnections "inputs/07.txt"
 const OurBag = "shiny gold"
 
 echo part1(bagushkas.larger, OurBag)
