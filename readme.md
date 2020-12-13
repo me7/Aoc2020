@@ -18,5 +18,13 @@ Day 10|Inf|Inf|part 2 is too hard for me to create algorithm --> [answer](python
 Day 11|Inf|Inf|learn Grid system (row, column)
 Day 12|Inf|Inf|learn Planar system (x, y)
 
+
+since day 10 onward code from Narimiran and Jonathan Pualson
+
+Day|Minute|TIL
+---|---|---
+Day 13a|Inf|wait = bus - (depart mod bus)
+Day 13b|Inf|chinese modulo which I not understand
+
 [1]: https://nim-lang.org/docs/strscans.html#scanf.m%2Cstring%2Cstatic%5Bstring%5D%2Cvarargs%5Btyped%5D
 [2]: https://pietroppeter.github.io/adventofnim/2020/day02.html
