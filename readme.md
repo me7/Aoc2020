@@ -25,6 +25,10 @@ Day|Minute|TIL
 ---|---|---
 Day 13a|Inf|wait = bus - (depart mod bus)
 Day 13b|Inf|chinese modulo which I not understand
+Day 14a|100|bitops, toBin, parseBin
+Day 14b|Inf|for i in 0 ..< 1 shl x 
+Day 15a|120|how to work with tables (when key not exist)? now have too many if else
+Day 15b|10|brute force, run in 10 sec
 
 [1]: https://nim-lang.org/docs/strscans.html#scanf.m%2Cstring%2Cstatic%5Bstring%5D%2Cvarargs%5Btyped%5D
 [2]: https://pietroppeter.github.io/adventofnim/2020/day02.html
